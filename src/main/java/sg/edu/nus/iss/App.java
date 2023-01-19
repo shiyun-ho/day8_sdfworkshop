@@ -1,5 +1,7 @@
 package sg.edu.nus.iss;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Hello world!
  */
@@ -12,6 +14,14 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // ConcurrentHashMap chme = new ConcurrentHashMap();
+        // chme.example();
+
+        //LinkedListExample lle = new LinkedListExample();
+        //lle.example();
+
+        StackExample se = new StackExample();
+        StackExample.example(); 
+
     }
 }
